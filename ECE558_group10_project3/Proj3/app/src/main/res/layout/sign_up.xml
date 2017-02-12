@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center_vertical"
+              android:weightSum="1">
+
+
+    <!-- TODO: EditText UI Control for editTextUserName -->
+
+    <EditText
+        android:id="@+id/signup_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:hint="@string/prompt_signup_email"/>
+
+    <!-- TODO: EditText UI Control for editTextPassword -->
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_signup_password"
+        android:inputType="textPassword"
+        android:maxLines="1"/>
+    <!-- TODO: EditText UI Control for editTextConfirmPassword -->
+
+    <EditText
+        android:id="@+id/signup_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_signup_confirm_password"
+        android:inputType="textPassword"
+        android:maxLines="1"/>
+
+    <!-- TODO: EditText UI Control for Latitude -->
+
+    <EditText
+        android:id="@+id/signup_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/signup_latitude"
+        android:maxLines="1"/>
+
+    <!-- TODO: EditText UI Control for Longitude-->
+
+    <EditText
+        android:id="@+id/signup_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/signup_longitude"
+        android:maxLines="1"/>
+
+    <!-- TODO: Button UI Control for buttonCreateAccount -->
+
+    <Button
+        android:id="@+id/Create_Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/signup_create_account" />
+
+    <!-- TODO: Button UI Control for Home_Button -->
+
+    <Button
+        android:id="@+id/Set_Home_Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/signup_set_home_location" />
+
+</LinearLayout>
